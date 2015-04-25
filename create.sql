@@ -31,22 +31,15 @@ CREATE TABLE trener
 
 CREATE TABLE klub
 (
-	id			serial			,
+	id			serial			PRIMARY KEY,
 	nazwa		varchar(16)		not null,
 	strona		varchar(32)		,
 	telefon		char(9)			not null,
 	miasto		varchar(16)		not null,
 	ulica		varchar(16)		not null,
 	numer		char(3)			,
-	trener		varchar(32)		,
-	stadion		int				,
-	CONSTRAINT	klub_pk PRIMARY KEY(id)
-	CONSTRAINT	klub_fk FOREIGN KEY(trener)
-					REFERENCES trener(nazwisko)
-						ON UPDATE CASCADE ON DELETE CASCADE
-	CONSTRAINT	klub_fk FOREIGN KEY(stadion)
-					REFERENCES stadion(id)
-						ON UPDATE CASCADE ON DELETE CASCADE
+	trener		varchar(32)		REFERENCES trener(nazwisko),
+	stadion		int				REFERENCES stadion(id)
 );
 
 CREATE TABLE zawodnik
