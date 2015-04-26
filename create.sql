@@ -13,9 +13,9 @@ CREATE TABLE sedzia
 CREATE TABLE stadion
 (
 	id			serial			,
-	pojmnosc	char(6)			not null,
-	miasto		varchar(16)		not null,
-	ulica		varchar(16)		not null,
+	pojemnosc	int				not null,
+	miasto		varchar(32)		not null,
+	ulica		varchar(32)		not null,
 	numer		char(3)			,
 	CONSTRAINT	stadion_pk PRIMARY KEY(id)
 );
@@ -32,13 +32,13 @@ CREATE TABLE trener
 CREATE TABLE klub
 (
 	id			serial			PRIMARY KEY,
-	nazwa		varchar(16)		not null,
+	nazwa		varchar(32)		not null,
 	strona		varchar(32)		,
 	telefon		char(9)			not null,
-	miasto		varchar(16)		not null,
-	ulica		varchar(16)		not null,
+	miasto		varchar(32)		not null,
+	ulica		varchar(32)		not null,
 	numer		char(3)			,
-	trener		varchar(32)		REFERENCES trener(nazwisko),
+	trener		int				REFERENCES trener(id),
 	stadion		int				REFERENCES stadion(id)
 );
 
@@ -48,28 +48,21 @@ CREATE TABLE zawodnik
 	imie		varchar(16)		not null,
 	nazwisko	varchar(32)		not null,
 	telefon		char(9)			,
-	klub		varchar(16)		,			
+	klub		int				,			
 	CONSTRAINT	zawodnik_pk	PRIMARY KEY(id),
 	CONSTRAINT	zawodnik_fk	FOREIGN KEY(klub)
-					REFERENCES klub(nazwa)
+					REFERENCES klub(id)
 						ON UPDATE CASCADE ON DELETE CASCADE
 );
 
 CREATE TABLE mecz
 (
-	id			serial			not null,
+	id			serial			PRIMARY KEY,
 	data		date			not null,
 	godzina		time			not null,
-	sedzia		varchar(32)		,
-	gospodarz	varchar(16)		,
-	gosc		varchar(16)		,	
-	CONSTRAINT	mecz_pk PRIMARY KEY(id),
-	CONSTRAINT	mecz_fk FOREIGN KEY(sedzia) 
-		REFERENCES sedzia(nazwisko)
-			ON UPDATE CASCADE ON DELETE CASCADE,
-	CONSTRAINT	mecz_fk	FOREIGN KEY(gospodarz,gosc)
-		REFERENCES klub(nazwa,nazwa)
-			ON UPDATE CASCADE ON DELETE CASCADE
+	sedzia		int				REFERENCES sedzia(id),
+	gospodarz	int				REFERENCES mecz(id),
+	gosc		int				REFERENCES mecz(id)
 );
 
 -- drop table mecz;
