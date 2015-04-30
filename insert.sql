@@ -113,3 +113,15 @@ INSERT INTO klub(nazwa, strona, telefon, miasto, ulica, numer, trener, stadion)
 VALUES('Gwardia','www.gwardia-koszalin.pl','913413982','Koszalin','Fałata','34',9,9);
 INSERT INTO klub(nazwa, strona, telefon, miasto, ulica, numer, trener, stadion)
 VALUES('Kaszubia','www.kskaszubia.pl','586867902','Kościerzyna','Sikorskiego','1',10,10);
+INSERT INTO klub(nazwa, strona, telefon, miasto, ulica, numer, trener, stadion)
+VALUES('Koral','www.koraldebnica.com.pl','598346305','Dębnica','Dębnica','7',11,11);
+INSERT INTO klub(nazwa, strona, telefon, miasto, ulica, numer, trener, stadion)
+VALUES('Kotwica','www.mkpkotwica.pl','593420440','Kołobrzeg','Śliwińskiego','7',12,12);
+INSERT INTO klub(nazwa, strona, telefon, miasto, ulica, numer, trener, stadion)
+VALUES('Lechia II','www.lechia.pl','583456871','Gdańsk','Traugutta','29',13,13);
+INSERT INTO klub(nazwa, strona, telefon, miasto, ulica, numer, trener, stadion)
+VALUES('Pogoń II','www.pogonszczecin.pl','914860099','Szczecin','Karłowicza','28',14,14);
+INSERT INTO klub(nazwa, strona, telefon, miasto, ulica, numer, trener, stadion)
+VALUES('Polonia','www.poloniagdansk.pl','583039999','Gdańsk','Marynarki Polskiej','177',15,15);
+INSERT INTO klub(nazwa, strona, telefon, miasto, ulica, numer, trener, stadion)
+VALUES('Potęgowo','www.pomorzepotegowo.futbolowo.pl','584569822','Potęgowo','Kościuszki','5',16,16);

@@ -1,0 +1,20 @@
+ id |   nazwa   |              strona              |  telefon  |      miasto       |       ulica        | numer | trener | stadion 
+----+-----------+----------------------------------+-----------+-------------------+--------------------+-------+--------+---------
+  1 | Arka II   | www.arka.gdynia.pl               | 589678321 | Gdynia            | Olimpijska         | 5/9   |      1 |       1
+  2 | Bałtyk    | wwww.baltyk.gdynia.pl            | 583214565 | Gdynia            | Olimijska          | 5/8   |      2 |       2
+  3 | Bałtyk    | www.baltykkoszalin.pl            | 593509409 | Koszalin          | Andersa            | 16    |      3 |       3
+  4 | Cartusia  | www.cartusia1923.pl              | 586092332 | Kartuzy           | 3 Maja             | 34    |      4 |       4
+  5 | Chemik    | www.chemik.police.pl             | 593456798 | Police            | Siedlecka          | 2b    |      5 |       5
+  6 | Drawa     | www.mksdrawa.futobolowo.pl       | 595460909 | Drawsko Pomorskie | Okrzei             | 1     |      6 |       6
+  7 | Energetyk | www.ksenergetykgryfino.pl        | 914162991 | Gryfino           | Sportowa           | 1     |      7 |       7
+  8 | Leśnik    | www.lesnik.manowo.pl             | 913183291 | Manowo            | Manowo             | 75    |      8 |       8
+  9 | Gwardia   | www.gwardia-koszalin.pl          | 913413982 | Koszalin          | Fałata             | 34    |      9 |       9
+ 10 | Kaszubia  | www.kskaszubia.pl                | 586867902 | Kościerzyna       | Sikorskiego        | 1     |     10 |      10
+ 11 | Koral     | www.koraldebnica.com.pl          | 598346305 | Dębnica           | Dębnica            | 7     |     11 |      11
+ 12 | Kotwica   | www.mkpkotwica.pl                | 593420440 | Kołobrzeg         | Śliwińskiego       | 7     |     12 |      12
+ 13 | Lechia II | www.lechia.pl                    | 583456871 | Gdańsk            | Traugutta          | 29    |     13 |      13
+ 14 | Pogoń II  | www.pogonszczecin.pl             | 914860099 | Szczecin          | Karłowicza         | 28    |     14 |      14
+ 15 | Polonia   | www.poloniagdansk.pl             | 583039999 | Gdańsk            | Marynarki Polskiej | 177   |     15 |      15
+ 16 | Potęgowo  | www.pomorzepotegowo.futbolowo.pl | 584569822 | Potęgowo          | Kościuszki         | 5     |     16 |      16
+(16 wierszy)
+
