@@ -1,0 +1,5 @@
+- pozycje sedziow,
+- inny diagram inny tekst,
+	- jeden trener dla klubu,
+- jeden sedzia - jako glowny,
+- poprawic klucze obce w meczu,
