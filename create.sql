@@ -47,7 +47,6 @@ CREATE TABLE zawodnik
 	id			serial			not null,
 	imie		varchar(16)		not null,
 	nazwisko	varchar(32)		not null,
-	telefon		char(9)			,
 	klub		int				,			
 	CONSTRAINT	zawodnik_pk	PRIMARY KEY(id),
 	CONSTRAINT	zawodnik_fk	FOREIGN KEY(klub)

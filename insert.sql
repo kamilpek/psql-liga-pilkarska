@@ -124,4 +124,4 @@ VALUES('Pogoń II','www.pogonszczecin.pl','914860099','Szczecin','Karłowicza','
 INSERT INTO klub(nazwa, strona, telefon, miasto, ulica, numer, trener, stadion)
 VALUES('Polonia','www.poloniagdansk.pl','583039999','Gdańsk','Marynarki Polskiej','177',15,15);
 INSERT INTO klub(nazwa, strona, telefon, miasto, ulica, numer, trener, stadion)
-VALUES('Potęgowo','www.pomorzepotegowo.futbolowo.pl','584569822','Potęgowo','Kościuszki','5',16,16);
+VALUES('Pomorze','www.pomorzepotegowo.futbolowo.pl','584569822','Potęgowo','Kościuszki','5',16,16);
