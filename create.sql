@@ -38,6 +38,7 @@ CREATE TABLE klub
 	miasto		varchar(32)		not null,
 	ulica		varchar(32)		not null,
 	numer		char(3)			,
+	barwy		varchar(32)		not null,
 	trener		int				REFERENCES trener(id),
 	stadion		int				REFERENCES stadion(id)
 );
