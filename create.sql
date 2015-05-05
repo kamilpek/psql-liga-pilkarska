@@ -62,7 +62,9 @@ CREATE TABLE mecz
 	godzina		time			not null,
 	sedzia		int				REFERENCES sedzia(id),
 	gospodarz	int				REFERENCES klub(id),
-	gosc		int				REFERENCES klub(id)
+	gosp_pkt	int				,
+	gosc		int				REFERENCES klub(id),
+	gosc_pkt	int				
 );
 
 -- drop table mecz;
