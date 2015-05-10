@@ -33,7 +33,7 @@ SELECT * FROM mecz WHERE data BETWEEN '2013/08/01' AND '2013/08/31';
 -- liczba meczy danego klubu
 SELECT nazwa, count (nazwa) FROM mecz, klub WHERE mecz.gospodarz = klub.id GROUP BY nazwa;
 
-select data, godzina, gospodarz, nazwa, gosc, nazwa from mecz inner join klub on mecz.gospodarz = klub.id inner join klub2 on mecz.gosc = klub.id;
+-- select data, godzina, gospodarz, nazwa, gosc, nazwa from mecz inner join klub on mecz.gospodarz = klub.id inner join klub2 on mecz.gosc = klub.id;
 
-select data, godzina, nazwa as gospodarz, nazwa as gosc from mecz inner join klub on mecz.gospodarz = klub.id inner join klub on mecz.gosc = klub.id;
+-- select data, godzina, nazwa as gospodarz, nazwa as gosc from mecz inner join klub on mecz.gospodarz = klub.id inner join klub on mecz.gosc = klub.id;
 
