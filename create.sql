@@ -33,6 +33,7 @@ CREATE TABLE klub
 (
 	id			serial			PRIMARY KEY,
 	nazwa		varchar(32)		not null,
+	punkty		int				,
 	strona		varchar(32)		,
 	telefon		char(9)			not null,
 	miasto		varchar(32)		not null,
