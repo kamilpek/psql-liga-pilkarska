@@ -13,14 +13,14 @@ INSERT INTO sedzia(imie, nazwisko, region, licencja)
 VALUES('Marcin','Siedlecki','Koszalin','890657');
 INSERT INTO sedzia(imie, nazwisko, region, licencja)
 VALUES('Mirosław','Cyrson','Słupsk','835234');
-INSERT INTO sedzia(imie, nazwisko, region, licencja)
-VALUES('Marcin','Lech','Gdańsk','874568');
+INSERT INTO sedzia(imie, nazwisko, licencja)
+VALUES('Marcin','Lech',,'874568');
 INSERT INTO sedzia(imie, nazwisko, region, licencja)
 VALUES('Konrad','Ałuszyk','Szczecin','854768');
 INSERT INTO sedzia(imie, nazwisko, region, licencja)
 VALUES('Tomasz','Lisowski','Gdańsk','845768');
-INSERT INTO sedzia(imie, nazwisko, region, licencja)
-VALUES('Michał','Krotowski','Malbork','867453');
+INSERT INTO sedzia(imie, nazwisko, licencja)
+VALUES('Michał','Krotowski','867453');
 INSERT INTO sedzia(imie, nazwisko, region, licencja)
 VALUES('Dawid','Błaszczak','Szczecin','878321');
 
